@@ -1,15 +1,6 @@
-/*
-=============== 
-Fonts
-===============
-*/
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-/*
-=============== 
-Variables
-===============
-*/
 
 :root {
   /* dark shades of primary color*/
@@ -54,11 +45,6 @@ Variables
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-/*
-=============== 
-Global Styles
-===============
-*/
 
 *,
 ::after,
@@ -136,7 +122,7 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
+
 
 .btn {
   text-transform: uppercase;
@@ -156,7 +142,7 @@ p {
   color: var(--clr-white);
   background: var(--clr-black);
 }
-/* section */
+
 .section {
   padding: 5rem 0;
 }
@@ -172,11 +158,7 @@ main {
   display: grid;
   place-items: center;
 }
-/*
-=============== 
-Countdown Timer
-===============
-*/
+
 .gift-img {
   margin-bottom: 2rem;
 }
